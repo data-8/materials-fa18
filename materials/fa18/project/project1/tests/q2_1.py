@@ -7,7 +7,7 @@ test = {
         {
           'code': r"""
           >>> # Please don't edit the last line.
-          >>> latest.labels == ('geo', 'time', 'poverty_percent')
+          >>> latest_poverty.labels == ('geo', 'time', 'poverty_percent')
           True
           """,
           'hidden': False,
@@ -16,7 +16,7 @@ test = {
         {
           'code': r"""
           >>> # The result should have one row per country.
-          >>> latest.num_rows
+          >>> latest_poverty.num_rows
           145
           """,
           'hidden': False,
